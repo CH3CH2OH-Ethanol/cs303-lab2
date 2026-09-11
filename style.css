@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: black;
+}
+
+header{
+    width: 100%;
+
+    background: rgba(10, 10, 10, 0.2);
+}
+header ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 30px 10vw;
+
+    list-style: none;
+}
+header ul a{
+    font: bold 14px "Times New Roman", serif;
+    color: azure;
+    text-decoration: none;
+}
